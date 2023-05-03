@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Registro" content="Página de Registro (página 5)" />
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-color: rgb(203, 240, 253)">
+    <header>
+      <h1
+        style="text-align: center; font-size: xx-large; font-family: 'Raleway'"
+      >
+        Formulario de Registro
+      </h1>
+    </header>
+
+    <main style="color: black; padding-left: 360px;font-family: 'Raleway', sans-serif">
+      <p style="font-size: x-large; padding-top: 30px;">
+        Bienvenido al formulario de registro para nuestro restaurante:
+      </p>
+      <form style="font-size: large">
+        <label for="fname" style="margin-right: 101px">Nombre</label>
+        <input type="text" id="fname" name="fname" /><br />
+
+        <label for="lname" style="margin-right: 100px">Apellido </label>
+        <input type="text" id="lname" name="lname" /><br />
+
+        <label for="radio" style="margin-right: 140px">Sexo</label>
+
+        <input type="radio" id="Masculino" name="Genero" value="Masculino" />
+        <label for="Masculino" style="margin-right: 50px">M</label>
+
+        <input type="radio" id="Femenino" name="Genero" value="Femenino" />
+        <label for="Femenino">F</label><br />
+
+        <label for="Direction" style="margin-right: 92px">Dirección</label>
+        <input type="text" id="Direction" /><br />
+
+        <label for="username" style="margin-right: 7px"
+          >Nombre de Usuario</label
+        >
+        <input type="text" id="username" /><br />
+
+        <label for="Password" style="margin-right: 75px">Contraseña</label>
+        <input type="password" id="Password" /><br />
+
+        <legend>Seleccione su reserva</legend>
+
+        <label for="Desayuno"
+          ><input
+            type="checkbox"
+            id="Desayuno"
+            name="Desayuno"
+            value="Desayuno"
+            style="margin-left: 180px"
+          />
+          Desayuno</label
+        ><br />
+
+        <label for="Almuerzo">
+          <input
+            type="checkbox"
+            id="Almuerzo"
+            name="Almuerzo"
+            value="Almuerzo"
+            style="margin-left: 180px"
+          />
+          Almuerzo</label
+        ><br />
+
+        <label for="Cena"
+          ><input
+            type="checkbox"
+            id="Cena"
+            name="Cena"
+            value="Cena"
+            style="margin-left: 180px"
+          />
+          Cena</label
+        ><br />
+      </form>
+    </main>
+
+    <footer style="font-family: 'Raleway', sans-serif">
+      <section style="text-align: center; margin-top: 60px; font-size: 20px">
+        <a href="Home.html"> REGRESAR</a>
+      </section>
+    </footer>
+  </body>
+</html>
